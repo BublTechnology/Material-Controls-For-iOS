@@ -13,7 +13,4 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'iOSUILib/iOSUILib/**/*'
-  s.resource_bundles = {
-    'MaterialControls' => ['iOSUILib/iOSUILib/*.png']
-  }
 end
